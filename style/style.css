@@ -1,0 +1,54 @@
+header{
+    background-color: rgba(0, 119, 255, 0.945);
+    height: 6em;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-repeat: initial;
+    
+}
+
+header img {
+
+    width: 10em;
+    height: 6em;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    width: 90%;
+}
+
+/* header, main, footer {
+    width: 80%;
+    margin: auto;
+} */
+
+.subtitle {
+    font-size: 1em;
+    color: grey;    
+    margin-bottom: 1em;
+}
+
+.date {
+    font-size: 10px;
+    color: grey;
+    margin-top: 2px;
+}
+
+.subtitle, .date {
+    line-height: 0.2px;
+}
+
+
+.images img {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 10px
+    height: auto;
+}
+
+.img-subtitle {
+    font-size: 11px;
+    margin-top: 2px;
+}
