@@ -19,10 +19,6 @@ body {
     width: 90%;
 }
 
-/* header, main, footer {
-    width: 80%;
-    margin: auto;
-} */
 
 .subtitle {
     font-size: 1em;
@@ -52,3 +48,37 @@ body {
     font-size: 11px;
     margin-top: 2px;
 }
+
+footer {
+    font-weight: bold;
+    color: grey;
+}
+footer img {
+    width: 10em;
+    height: 8em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.image-overlay {
+    position: relative;
+
+}
+
+.image-overlay img {
+    width: 10em;
+    height: 8em;
+    
+}
+
+.image-overlay .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    font-size: smaller
+}
+
+
+    
